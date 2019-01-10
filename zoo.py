@@ -28,12 +28,10 @@ zoo = list(zoo)
 print("Zoo as list:", zoo)
 print("\n")
 
+zoo.extend(["snake", "horse", "cow", "goat"])
 
-zoo.append("snake")
-zoo.append("horse")
-zoo.append("goat")
 
-print("Zoo after append:", zoo)
+print("Zoo after extend:", zoo)
 print("\n")
 
 
